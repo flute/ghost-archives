@@ -30,7 +30,7 @@ jQuery(document).ready(function() {
 			var url = "http://www.ldsun.com"+posts[i].url;
 			//首篇文章与其余文章分步操作
 			if (i > 0) {
-				var pre_month = moment(posts[i - 1].published_at).get('month')+1;
+				var pre_month = moment(posts[i - 1].published_at).utcOffset("-08:00").get('month')+1;
 				//如果当前文章的发表月份与前篇文章发表月份相同，则在该月份ul下插入该文章
 				if (month == pre_month) {
 					var html = "<li><time>"+date+"日</time><a href='"+url+"'>"+title+"</a></li>";
