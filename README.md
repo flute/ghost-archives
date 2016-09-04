@@ -8,7 +8,7 @@ demo：http://www.ldsun.com/archives-post/
 
 ![demo img](https://github.com/flute/ghost-archives/blob/master/img/demo.png)
 
-Introduction：http://www.ldsun.com/2016/07/23/ghost-archives/
+Introduction：https://www.ldsun.com/ghost-archives/
 
 
 
